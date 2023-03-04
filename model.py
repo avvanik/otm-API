@@ -56,5 +56,3 @@ class Model:
         df.to_csv('places_output.csv')
 
 
-
-
