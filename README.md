@@ -1,1 +1,1 @@
-### OpenTripMap API can be found here: https://opentripmap.io/
+OpenTripMap API can be found here: https://opentripmap.io/
