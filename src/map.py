@@ -9,7 +9,7 @@ from global_ import coordinates
 class Converter:
 
     def __init__(self):
-        self.df = pd.read_csv('places_output.csv')
+        self.df = pd.read_csv('/data/places_output.csv')
 
     def create_map(self):
         es_map = folium.Map(location=coordinates, zoom_start=13)
@@ -26,7 +26,7 @@ class Converter:
         driver = webdriver.Chrome()
         driver.get(url)
         time.sleep(5)
-        driver.save_screenshot("output.png")
+        driver.save_screenshot("data/output.png")
         driver.quit()
 
 
